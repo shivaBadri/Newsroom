@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsroom
+    </title>
+    <link href="style.css" rel="stylesheet">
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    
+  <!--nav-bar-->  
+  
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top pt-3 " style="background-color: #ffffff;">
+    <div class="container">
+      <a class="navbar-brand" href="main.html">
+        <img class="image-logo" src="images/Logo.png"  alt="" height="50" >
+      </a>
+      
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <ul class="nav px-3 py-3 rounded-pill  gap-5" >
+            <li class="nav-item">
+              <a class="nav  nav-txt-style" href="viewall.html#dailynewsall">Daily Newsroom</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav  nav-txt-style" href="viewall.html#marketsall">Markets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav   nav-txt-style" href="viewall.html#toparticlesall">Top Articles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav   nav-txt-style" href="viewall.html#moneyall">Money</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav  nav-txt-style" href="viewall.html#graphall">Infographic</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+    
+  <!--banner-content-->
+  <div>
+    <div class="container ">
+      <div class="row d-none d-md-flex">
+          <div class=" main-content  col-md-12  col-lg-6 col-xl-6 col-xxl-6 ">
+              <h1 class="web-moto-head ">Financial News Made Simple</h1>
+              <p class="col col-8 web-moto">Join Financial Newsroom and get your daily dose of the latest, most important Financial developments delivered in plain English. In less than 3 minutes.</p>
+              <!--<a class="button">Hi</a>
+              <a class="button">Hi</a>
+              <a class="button">Hi</a>
+              <a class="button">Hi</a>-->
+              
+          </div>
+          <div class="col-lg-6 d-none d-lg-block">
+              <img src="images/Blue Modern Money Managing Mobile App Promotion Facebook Ad.png">
+          </div>
+
+      </div>
+    </div>
+    <!--banner-content-mobile-->
+    <div class="container ">
+      <div class="row d-block d-md-none">
+          <div class=" col-md-12  col-lg-6 col-xl-6 col-xxl-6 mt-5 ">
+              <h1 class="web-moto-head ">Financial News Made Simple</h1>
+              <p class="col col-8 web-moto-mobile">Join Financial Newsroom and get your daily dose of the latest, most important Financial developments delivered in plain English. In less than 3 minutes.</p>
+              <a class="button " href="read.html#markets-sec">Markets</a>
+              <a class="button " href="read.html#articles-sec">Top articles</a>
+              <a class="button" href="read.html#mobile-sec">Money</a>
+              <a class="button" href="read.html#graphs-sec">Infographic</a>
+              
+          </div>
+          <div class="col-lg-6 d-none d-lg-block">
+              <img src="images/Blue Modern Money Managing Mobile App Promotion Facebook Ad.png">
+          </div>
+
+      </div>
+    </div>
+  </div>
+ 
+
+  <!--slider-->
+  <!--
+
+    <div class="container mt-5">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/First img.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/second img.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                 
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/Third img.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                 
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+       </div>
+     --> 
+
+
+  <!--daily newsroom cards--> 
+  <div class="container mt-5">  
+    <diV class="row d-none d-md-flex">
+          <div class="col col-12">
+              <a class="section-header" href="viewall.html#dailynewsall">Daily Newsroom <i class="fa-solid fa-arrow-right text" style="color: #00bf63;"></i></a>
+              
+              <hr class="hr-style">
+          </div>
+         
+          <div class=" col-md-6 col-lg-4 col-xl-3 col-xxl-3  dailynews">
+              <div class=" card-daily" >
+                <a class="anchor-link" href="read.html#section1"  >
+                  <img src="images/apr-18.png" class="card-img-top " alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">How do you measure India’s happiness?</h5>
+                    <p class="card-text">we unpack why India ranks at the very top of one global happiness survey and near the bottom of another. And why happiness, like many things in life, depends on when, how, and whom you ask</p>
+                    
+                  </div>
+                  <i class="fa-solid fa-arrow-right text" style="color: #00bf63;"></i>
+                </a>
+                 
+                  
+              </div>
+          </div>  
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 dailynews">
+              <div class=" card-daily" >
+                <a class="anchor-link" href="read.html#section2">
+                  <img src="images/apr-17.png"  class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">The quick commerce vs. kirana stores debate is back!</h5>
+                    <p class="card-text">we tell y'ou the real reason why Indian kirana stores are dying, and why quick commerce can’t completely kill them.</p>
+                    
+                  </div>
+                  <i class="fa-solid fa-arrow-right text" style="color: #00bf63;"></i>
+                </a>
+              </div>
+          </div>  
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3   dailynews">
+              <div class="card-daily" >
+                <a class="anchor-link" href="read.html#section3">
+                  <img src="images/apr-16.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Can India become Apple’s next China?</h5>
+                    <p class="card-text">we tell you why Apple is looking to expand in India and how it’s a narrative of the changing global trade</p>
+                    
+                  </div>
+                  <i class="fa-solid fa-arrow-right text" style="color: #00bf63;"></i>
+                </a> 
+              </div>
+          </div>  
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3  dailynews">
+              <div class="card-daily" >
+                <a class="anchor-link" href="read.html#section4">
+                  <img src="images/apr-15.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">India's new plan to stop power cuts forever</h5>
+                    <p class="card-text"> we talk about STELLAR, the Central Electricity Authority (CEA)’s new tool to help electricity distributors manage power supply and possibly move towards zero power cuts in India..</p>
+                    
+                  </div>
+                  <i class="fa-solid fa-arrow-right text" style="color: #00bf63;"></i>
+                </a> 
+              </div>
+          </div>  
+              
+              
+          
+          
+      </diV>
+
+  </div>
+
+  <!--daily-news-mobile-->
+  <div class="container ">
+    <div class="row d-block d-md-none">
+      
+        <div class="col-12 ">
+          <a class="anchor-link" href="read.html#section1">
+            <div class="container mobile-con mb-3" >
+              <div class="row g-0 ">
+                <div class="col-5 mt-2">
+                  <img src="images/apr-18.png" class="img-fluid rounded-end img-mobile" alt="...">
+                </div>
+                <div class="col-7">
+                  <div class="card-body">
+                    <h5 class="card-title">How do you measure India’s happiness?</h5>
+                    <p class="card-text">we unpack why India ranks at the very top of one global happiness survey and near the bottom of another . . . </p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      
+
+      <div class="col-12 ">
+        <a class="anchor-link" href="read.html#section2">
+          <div class="container mobile-con mb-3" >
+            <div class="row g-0">
+              <div class="col-5 mt-2">
+                <img src="images/apr-17.png" class="img-fluid rounded-end img-mobile" alt="...">
+              </div>
+              <div class="col-7">
+                <div class="card-body">
+                  <h5 class="card-title">The quick commerce vs. kirana stores debate is back!</h5>
+                  <p class="card-text">we tell y'ou the real reason why Indian kirana stores are dying . . . </p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      
+      <div class="col-12 mt-4">
+        <a class="anchor-link" href="read.html#section3">
+          <div class="container mobile-con mb-3" >
+            <div class="row g-0">
+              <div class="col-5 mt-2">
+                <img src="images/apr-16.png" class="img-fluid rounded-end img-mobile" alt="...">
+              </div>
+              <div class="col-7">
+                <div class="card-body">
+                  <h5 class="card-title">Can India become Apple’s next China?</h5>
+                  <p class="card-text">we tell you why Apple is looking to expand in India and how it’s a narrative of the changing global trade . .  </p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>  
+
+      <div class="col-12 mt-4">
+        <a class="anchor-link" href="read.html#section4">
+          <div class="container mobile-con mb-3" >
+            <div class="row g-0">
+              <div class="col-5 mt-2">
+                <img src="images/apr-15.png" class="img-fluid rounded-end img-mobile" alt="...">
+              </div>
+              <div class="col-7">
+                <div class="card-body">
+                  <h5 class="card-title">India's new plan to stop power cuts forever</h5>
+                  <p class="card-text">The Central Electricity Authority (CEA)’s new tool to help . . . </p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="container">
+        <a href="https://www.amazon.in/s?k=rich+dad+poor+dad+book+in+english&crid=1ITQJSXAMQWNO&sprefix=%2Caps%2C177&ref=nb_sb_ss_recent_1_0_recent">
+          <img src="images/ad img mobile.png " class="w-100" >
+        </a> 
+      </div>
+       
+      
+    </div>
+  </div>
+
+
+  <!--Markets-and-top articles-->
+  <div class="container mt-5">
+    <div class="row d-none d-md-flex">
+
+
+      <!--Markets-->
+      <div class=" col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 mt-5 ">
+          <a  class="section-header" href="viewall.html#marketsall">Markets <i class="fa-solid fa-arrow-right text" style="color: #00bf63;"></i></a>
+          <hr class="hr-style">
+
+          <div class="card-market">
+            <a href="read.html#sectionM1" class="anchor-link">
+            <div class="card-mt mb-3" >
+                <div class="row g-0">
+                  
+                    <div class="col-md-4">
+                      <img src="markets/Aditya.png" class="img-fluid" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Making sense of Aditya Birla's breakup with the paper business</h5>
+                        <p class="card-text"> we tell you why Aditya Birla Real Estate has struck a deal with ITC to sell off its pulp and paper business.</p>
+                        
+                      </div>
+                    </div>
+                  
+                  
+                </div>
+            </div>
+          </a>
+          </div>
+          
+          <div class="card-market">
+             <a href="read.html#sectionM2" class="anchor-link">
+            <div class="card-mt mb-3" >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="markets/siements.png" class="img-fluid" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Decoding the Siemens Energy demerger</h5>
+                    <p class="card-text">we simply break down the Siemens Energy demerger.</p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          </div>
+         
+          <div class="card-market">
+            <a href="read.html#sectionM3" class="anchor-link">
+            <div class="card-mt mb-3" >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="markets/adani and birla.png" class="img-fluid" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Why Adani and Birla are betting big on wires and cables</h5>
+                    <p class="card-text">we tell you why Indian conglomerates are getting interested in wires and cables.</p>
+                    
+                  </div>
+                </div>
+              </div>
+          </div>
+            </a>
+          </div>
+          
+           
+      </div>
+
+          
+      <!--Top-Articles-->
+      <div class=" col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 mt-5">
+          <a  class="section-header" href="viewall.html#toparticlesall">Top Articles <i class="fa-solid fa-arrow-right text" style="color: #00bf63;"></i></a>
+          <hr class="hr-style">
+          
+          <div class="card-article">
+            <a href="read.html#sectionT1" class="anchor-link">
+            <div class="card-mt mb-3" >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="top articles/picleball (1).png" class="img-fluid" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">India's Pickleball boom!</h5>
+                    <p class="card-text">we tell you why almost everyone in India is hooked on pickleball and how this craze is fuelling businesses.</p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+           </a>
+          </div>
+          
+          <div  class="card-article">
+             <a href="read.html#sectionT2" class="anchor-link">
+            <div class="card-mt mb-3" >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="top articles/us stock.png" class="img-fluid" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">The US wants its stock market to crash</h5>
+                    <p class="card-text">we tell you why Trump’s administration is deliberately pulling down the stock markets and if that bold plan could work.</p>
+                    
+                  </div>
+                </div>
+              </div>
+          </div>
+            </a>
+          </div>
+         
+          <div  class="card-article">
+            <a href="read.html#sectionT3" class="anchor-link">
+            <div class="card-mt mb-3" >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="top articles/upset (2).png" class="img-fluid" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">FIIs are upset. Should you be too?</h5>
+                    <p class="card-text">Indian stock markets are tumbling, and whether you’re a trader or just a bystander, you’ve probably caught the whispers of panic.</p>
+                    
+                  </div>
+                </div>
+              </div>
+          </div>
+            </a>
+          </div>
+          
+          
+                    
+      </div>
+
+    </div>
+
+  </div>
+
+  
+  <!--ad-->
+  <div class=" container mt-5 bg-dark text-white d-none d-md-flex ad-container">
+    <a href=" https://www.amazon.in/s?k=rich+dad+poor+dad+book+in+english&crid=B6V7NUN9ERGZ&sprefix=rich+%2Caps%2C1332&ref=nb_sb_ss_ts-doa-p_1_5"><img src="images/AD.png" class="card-img" alt="..."></a>
+    
+    
+  </div>
+
+
+  <!--Money-->
+  <div class="container mt-5">
+        <diV class="row d-none d-md-flex">
+            <div class="col col-12">
+                <a  class="section-header" href="viewall.html#moneyall">Money <i class="fa-solid fa-arrow-right text" style="color: #00bf63;"></i></a>
+               
+                <hr class="hr-style">
+            </div>  
+            <div class="col-md-6 col-lg-4 col-xl-3 col-xxl-3 card-margin ">
+                <div class="card-money" >
+                  <a href="read.html#sectionMo1" class="anchor-link"> 
+                    <img src="money/crypto3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title"> Bitcoin and cryptos beyond money</h5>
+                      <p class="card-text">Welcome to week 3 of Cracks Crypto.</p>
+                      
+                    </div>
+                    <i class="fa-solid fa-arrow-right text" style="color: #00bf63;"></i>
+                  </a> 
+                </div>
+            </div>  
+
+
+            <div class="col-md-6 col-lg-4 col-xl-3 col-xxl-3 card-margin ">
+                <div class="card-money" >
+                  <a href="read.html#sectionMo2" class="anchor-link">
+                    <img src="money/crypto2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title"> What's Money?! From Barter to Bitcoin🤯</h5>
+                      <p class="card-text">In the first part of  Cracks Crypto, we went over the basics of blockchain and Bitcoin.</p>
+                      
+                    </div>
+                    <i class="fa-solid fa-arrow-right text" style="color: #00bf63;"></i>
+                  </a>
+                </div>
+            </div>  
+
+
+            <div class="col-md-6 col-lg-4 col-xl-3 col-xxl-3 card-margin ">
+                <div class="card-money" >
+                  <a href="read.html#sectionMo3" class="anchor-link">
+                    <img src="money/crypto1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title"> What are blockchain and cryptocurrency anyway?!</h5>
+                      <p class="card-text">In today’s , we kick off the  Cracks Crypto series and break down the basics of cryptocurrencies, blockchain and Bitcoin!</p>
+                      
+                    </div>
+                    <i class="fa-solid fa-arrow-right text" style="color: #00bf63;"></i>
+                  </a> 
+                </div>
+            </div>  
+
+
+            <div class="col-md-6 col-lg-4 col-xl-3 col-xxl-3 card-margin">
+                <div class="card-money" >
+                  <a href="read.html#sectionMo4" class="anchor-link">
+                    <img src="money/milestones4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">🎯 Chasing FIRE</h5>
+                      <p class="card-text">This is how our lives typically look like.</p>
+                      
+                    </div>
+                    <i class="fa-solid fa-arrow-right text" style="color: #00bf63;"></i>
+                  </a> 
+                </div>
+            </div>  
+               
+               
+            
+            
+        </diV>
+
+  </div>
+
+  <!--Graphs-->
+  <div class="container mt-5">
+        <diV class="row d-none d-md-flex">
+            <div class="col col-12">
+                <a  class="section-header" href="viewall.html#graphsall">Infographic<i class="fa-solid fa-arrow-right text" style="color: #00bf63;"></i></a>
+                <hr class="hr-style">
+            </div>  
+
+            
+            <div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4  margin-bottom ">
+                <div class="card-g">
+                  <a href="read.html#sectionG1" class="anchor-link">
+                    <img src="graphs/rise of student loan.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Rise of Student Loans</h5>
+                      <h6  class="card-text-g">A creative depicting the 100% increase in student loans in 5 years.</h6>
+                      
+                    </div>
+                    <i class="fa-solid fa-arrow-right text" style="color: #00bf63;"></i>
+
+                  </a> 
+                </div>
+            </div>  
+
+
+            <div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4 margin-bottom ">
+                <div class="card-g">
+                  <a href="read.html#sectionG2" class="anchor-link">
+                    <img src="graphs/india aviation .png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">India's Aviation Spike</h5>
+                      <h6 class="card-text-g">A look at the number of aircraft every airline is set to receive by 2030.</h6>
+                      
+                    </div>
+                    <i class="fa-solid fa-arrow-right text" style="color: #00bf63;"></i>
+                  </a> 
+                </div>
+            </div>  
+
+
+            <div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4 margin-bottom d-none d-lg-flex ">
+                <div class="card-g" >
+                  <a href="read.html#sectionG3" class="anchor-link">
+                    <img src="graphs/gov earn 100.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">How the government earns ₹100</h5>
+                      <h6 class="card-text-g">A look at the government's revenue sources.</h6>
+                      
+                    </div>
+                    <i class="fa-solid fa-arrow-right text" style="color: #00bf63;"></i>
+                  </a>  
+                </div>
+            </div>  
+             
+               
+               
+            
+            
+        </diV>
+
+  </div>
+
+  <!--Footer-->
+  <footer class="container footer-container ">
+    <div class="image-footer">
+     <a href="#"><img  src="images/Logo.png" alt="" height="50" ></a>
+     <p class="fotter-h">Financial news made simple</p>
+     <p class="fotter-h">CONTACT US : Financialnews@gmail.com</p>
+    </div>
+    
+  </footer>
+    
+
+
+ 
+  <script src="https://kit.fontawesome.com/f7311ce6c9.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
